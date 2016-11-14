@@ -5,8 +5,8 @@ import java.util.Random;
 public class Tambor {
 	private Integer caras;
 
-	public Tambor() {
-		this.caras = 10;
+	public Tambor(Integer caras) {
+		this.caras = caras;
 	}
 
 	public Integer girar() {

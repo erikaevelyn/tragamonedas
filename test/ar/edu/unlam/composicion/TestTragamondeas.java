@@ -10,7 +10,7 @@ public class TestTragamondeas {
 	@SuppressWarnings("deprecation")
 	@Test
 	public void queElTragamonedasArrojeValoresEnElRango() {
-		Tragamonedas tragamonedas = new Tragamonedas();
+		Tragamonedas tragamonedas = new Tragamonedas(10,10,10);
 		Integer minimo = 1;
 		Integer maximo = 10;
 		tragamonedas.jugar();
